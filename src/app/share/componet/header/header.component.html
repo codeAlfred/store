@@ -1,6 +1,9 @@
 <p>
     <mat-toolbar color="primary">
       <span>My Application</span>
+      {{quantity$ | async | json }} - Quantity
+      {{total$ | async | json }} - total
+      
     </mat-toolbar>
 </p>
 
